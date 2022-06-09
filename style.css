@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+.fullScreen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_Instagram{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.login_Insta{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    align-items: center;
+    border: 1px solid gray;
+    width: 100%;
+    margin: 2px;
+    background-color: #fff;
+    color: #8e8e8e;
+    border-radius: 8px;
+
+    
+}
+
+.download_Instagram{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    align-items: center;
+    font-weight: bold;
+    
+
+}
+
+.blue_Link{
+    color: #0095f6;
+}
+
+.continue_Login{
+    display: flex;
+    background-color: #0095f6;
+    color: #fff;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.foto_Perfil{
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.logo_Download{
+    
+    width: 10rem;
+}
+.logoInsta{
+    width: 12rem;
+}
+.phone_Instagram{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+@media (max-width: 500px){
+.phone_Instagram{
+    display: none;
+}
+}
+
+@media (max-width: 800px){
+    .imgPhone{
+width: 80%;
+    }
+    }
